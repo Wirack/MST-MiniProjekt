@@ -3,22 +3,23 @@
 \usepackage{setspace} 
 \onehalfspacing
 \usepackage[utf8]{inputenc}
+\usepackage[numbers, sort&compress]{natbib}
 
 
 \begin{document}
 \begin{center}
 \bigskip\bigskip
-{\Large\bf Mobile Cloud Computing...}
+{\Large\bf Mobile Cloud Computing}
 \bigskip\bigskip
 
 % Make sure all student names, email addresses and study names are correct!
 
-Mathias Winde Pedersen, mapede11@student.aau.dk, SW8\\
 Lars Andersen, la11@student.aau.dk, SW8\\
-Søren Skibsted Als, sals11@student.aau.dk, SW8\\
 Lasse Vang Gravesen, lgrave11@student.aau.dk, SW8\\
-Sune Nilausen, snilau10@student.aau.dk, SW8\\
-Jens Kursch, jkursc11@student.aau.dk, SW8
+Jens Møller Kursch, jkursc11@student.aau.dk, SW8\\
+Sune Sylvest Nilausen, snilau10@student.aau.dk, SW8\\
+Mathias Winde Pedersen, mapede11@student.aau.dk, SW8\\
+Søren Skibsted Als, sals11@student.aau.dk, SW8 % Hvorfor ligger han til sidst?
 
 \bigskip
 \begin{abstract}
@@ -31,14 +32,13 @@ this is the abstract...
 
 \titlepage
 
-
-
 \thispagestyle{plain}
 \pagenumbering{arabic}
 
 % NOTE: From here on, you have SIX pages EXCLUDING the references.
 
 \section{Introduction}
+Blablabla \citep{misc:mobilecloudcomputing}
 
 \section{...}
 
@@ -47,7 +47,8 @@ this is the abstract...
 \section{Conclusion}
 
 
-\bibliographystyle{plain}
-\bibliography{yourbib}
+\bibliographystyle{unsrtnat}
+\bibliography{bib}
+\label{bib:mybiblio}
 
 \end{document}
